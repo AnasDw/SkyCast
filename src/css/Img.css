@@ -1,0 +1,25 @@
+#cloudySun {
+  background-image: url("../assets/img/cloudySun.png");
+}
+#cloudySunRain {
+  background-image: url("../assets/img/cloudySunRain.png");
+}
+#cloudyMoon {
+  background-image: url("../assets/img/cloudyMoon.png");
+}
+#cloudy {
+  background-image: url("../assets/img/cloudy.png");
+}
+#thunderDark {
+  background-image: url("../assets/img/thunderDark.png");
+}
+.star {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.weatherImg {
+  width: 100px;
+  height: 100px;
+}

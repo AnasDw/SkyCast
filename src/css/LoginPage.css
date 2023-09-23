@@ -1,0 +1,44 @@
+.loginPage-Background {
+  background-image: url("../assets/img/Login_background.png");
+}
+
+.ho {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.login {
+  opacity: 0.9;
+  background-color: white;
+  position: absolute;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  width: 30%;
+  height: 60%;
+  top: 20%;
+  left: 10%;
+}
+.fa-user-circle {
+  margin: 1rem;
+  width: 80px;
+  height: 80px;
+  background-image: url("../assets/img/user.png");
+}
+.fa {
+text-align: center;  
+  font-weight: 800;
+  width: 50%;
+}
+.fa h1 {
+  font-size: 60px;
+  color: rgba(255, 217, 0, 0.888);
+  font-weight: 800;
+}
+.fa h2 {
+  color: rgba(247, 245, 244, 0.514);
+}
