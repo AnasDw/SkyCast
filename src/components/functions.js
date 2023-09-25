@@ -9,7 +9,7 @@ export default function getWindDirection(degrees) {
 export var FavoriteList = [];
 
 export function ConvertTimeZoneToImg(lat, lng, sunsetTimestamp, func) {
-  const url = `http://api.timezonedb.com/v2.1/get-time-zone?key=PFS6IN6NFOH0&format=json&by=position&lat=${lat}&lng=${lng}`;
+  const url = `https://api.timezonedb.com/v2.1/get-time-zone?key=PFS6IN6NFOH0&format=json&by=position&lat=${lat}&lng=${lng}`;
   axios
     .get(url)
     .then((response) => {
