@@ -52,7 +52,6 @@ const WeatherCard = ({ response, good }) => {
         response.data,
         response.data.coord.lat,
         response.data.coord.lon,
-        response.data.sys.sunset,
         a
       );
     }

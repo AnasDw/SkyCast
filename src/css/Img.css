@@ -7,11 +7,17 @@
 #cloudyMoon {
   background-image: url("../assets/img/cloudyMoon.png");
 }
+#cloudyMoonRain {
+  background-image: url("../assets/img/cloudyMoonRain.png");
+}
 #cloudy {
   background-image: url("../assets/img/cloudy.png");
 }
 #thunderDark {
   background-image: url("../assets/img/thunderDark.png");
+}
+#sun {
+  background-image: url("../assets/img/sun.png");
 }
 .star {
   width: 30px;
