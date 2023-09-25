@@ -49,6 +49,7 @@ const WeatherCard = ({ response, good }) => {
       setCity(response.data.name);
 
       const weatherIcon = ConvertTimeZoneToImg(
+        response.data,
         response.data.coord.lat,
         response.data.coord.lon,
         response.data.sys.sunset,
